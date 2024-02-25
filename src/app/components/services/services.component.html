@@ -1,0 +1,65 @@
+<div class="container-fluid destination py-5">
+  <div class="container py-5">
+    <div class="mx-auto text-center mb-5" style="max-width: 900px">
+      <h5 class="section-title px-3">Brands</h5>
+
+      <h1 class="mb-0">Our Brands</h1>
+    </div>
+    <div class="tab-class text-center">
+      <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+        @for (item of taps; track $index) {
+        <li class="nav-item" (click)="changegeActive($index + 1)">
+          <a
+            class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
+            [ngClass]="{ active: $index + 1 == 1 && activeFlag }"
+            data-bs-toggle="pill"
+            href="#tab-{{ $index + 1 }}"
+          >
+            <span class="text-dark" style="width: 150px">{{ $index + 1 }}</span>
+          </a>
+        </li>
+        }
+      </ul>
+      <div class="tab-content">
+        @for (item of itemsList; track $index) {
+
+        <div
+          id="tab-{{ $index + 1 }}"
+          class="tab-pane fade show p-0"
+          [ngClass]="{ active: $index + 1 == 1 && activeFlag }"
+        >
+          <div class="row g-4">
+            <!-- <a href="#" class="institute-title">{{ item.data.title }}</a> -->
+            @for (obj of item.images; track $index) {
+
+            <div class="col-lg-6 p-2">
+              <div
+                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 box"
+              >
+                <div class="service-icon p-4">
+                  <i class="{{ obj?.icon }}"></i>
+                </div>
+                <div class="service-content text-start">
+                  <h5 class="mb-4">{{ obj?.title }}</h5>
+                  <p class="mb-0">
+                    {{ obj?.desc }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            }
+            <div class="col-12">
+              <div class="text-center">
+                <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href=""
+                  >Get More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
