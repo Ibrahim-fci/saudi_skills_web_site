@@ -1,4 +1,3 @@
-/*** Carousel Hero Header Start ***/
 .carousel-header .carousel-control-prev,
 .carousel-header .carousel-control-next {
   background: transparent;
@@ -86,5 +85,3 @@
     transition: 0.5s;
   }
 }
-
-/*** Carousel Hero Header End ***/

@@ -1,4 +1,4 @@
-<div class="container-fluid destination py-5">
+<div class="container-fluid destination py-5" id="brands">
   <div class="container py-5">
     <div class="mx-auto text-center mb-5" style="max-width: 900px">
       <h5 class="section-title px-3">Brands</h5>
@@ -29,7 +29,6 @@
           [ngClass]="{ active: $index + 1 == 1 && activeFlag }"
         >
           <div class="row g-4">
-            <!-- <a href="#" class="institute-title">{{ item.data.title }}</a> -->
             @for (obj of item.images; track $index) {
 
             <div class="col-lg-6 p-2">
@@ -63,3 +62,102 @@
     </div>
   </div>
 </div>
+
+<!-- Services Start -->
+<div class="container-fluid bg-light service py-5" id="services">
+  <div class="container py-5">
+    <div class="mx-auto text-center mb-5" style="max-width: 900px">
+      <h5 class="section-title px-3">Searvices</h5>
+      <h1 class="mb-0">Our Services</h1>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="row g-4">
+          <div class="col-12">
+            <div
+              class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
+            >
+              <div class="service-content text-start p-2">
+                <h5 class="mb-4">Strategy Development</h5>
+                <p class="mb-0">
+                  Helping public and private sector entities in understanding
+                  their mandates and businesses, and analyzing their
+                  environment, to identify and evaluate strategic options to
+                  achieve their objectives.
+                </p>
+              </div>
+              <div class="service-icon p-4">
+                <i class="fa fa-hands-helping fa-4x text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div
+              class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
+            >
+              <div class="service-content text-start p-2">
+                <h5 class="mb-4">Market Research & Economic Studies</h5>
+                <p class="mb-0">
+                  Collecting data and analyzing markets and industries, either
+                  quantitative or qualitative, depending on the requirements of
+                  the client.
+                </p>
+              </div>
+              <div class="service-icon p-4">
+                <i class="fa fa-bar-chart fa-4x text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="row g-4">
+          <div class="col-12">
+            <div
+              class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+            >
+              <div class="service-icon p-4">
+                <i class="fa fa-briefcase fa-4x text-primary"></i>
+              </div>
+              <div class="service-content">
+                <h5 class="mb-4">Strategy Implementation</h5>
+                <p class="mb-0">
+                  Streamlining the general strategic direction and objectives of
+                  an entity into more operational and tactical activities, and
+                  supporting clients in executing their strategy while
+                  considering the nature of the industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div
+              class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+            >
+              <div class="service-icon p-4">
+                <i class="fa fa-building fa-4x text-primary"></i>
+              </div>
+              <div class="service-content">
+                <h5 class="mb-4">Partnerships And Mergers</h5>
+                <p class="mb-0">
+                  Supporting organizations currently seeking to enter a
+                  partnership or merge with another institution by helping
+                  clients assess the potential, design the structure, and ensure
+                  the long-term success of the new venture.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="text-center">
+          <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href=""
+            >Service More</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Services End -->
