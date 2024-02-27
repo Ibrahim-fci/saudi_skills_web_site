@@ -38,7 +38,7 @@
 }
 
 .destination .tab-class .nav-item a.active {
-  background: var(--bs-primary) !important;
+  background: #ff3115 !important;
 }
 
 .destination .tab-class .nav-item a.active span {
@@ -70,7 +70,7 @@
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  color: var(--bs-primary);
+  color: #ff3115;
 }
 
 .section-title::before {
@@ -81,7 +81,7 @@
   right: 0;
   transform: translateY(-50%);
   margin-right: -50px;
-  border: 1px solid var(--bs-primary) !important;
+  border: 1px solid #ff3115 !important;
 }
 
 .section-title::after {
@@ -92,11 +92,11 @@
   left: 0;
   transform: translateY(-50%);
   margin-left: -50px;
-  border: 1px solid var(--bs-primary) !important;
+  border: 1px solid #ff3115 !important;
 }
 
 .institute-title {
-  color: var(--bs-primary);
+  color: #ff3115;
   text-transform: capitalize;
   font-weight: 600;
   font-size: 1.5rem;
@@ -115,7 +115,7 @@
 
 .box:hover {
   position: relative;
-  background: #0d6efd !important;
+  background: #ff3115 !important;
 }
 
 
@@ -135,7 +135,7 @@
 
 .service .service-content-inner:hover {
   position: relative;
-  background: var(--bs-primary) !important;
+  background: #ff3115 !important;
 }
 
 .service .service-content-inner .service-content h5,
@@ -151,3 +151,18 @@
 }
 
 /*** Service End ***/
+
+.btn-btn-next-brev {
+  background-color: #ff3115;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  padding: 10px 20px;
+}
+
+.icon-bg {
+  color: #ff3115;
+  border-radius: 0;
+  border: 0;
+  padding: 10px 20px;
+}

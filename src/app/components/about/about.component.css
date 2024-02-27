@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  color: var(--bs-primary);
+  color: #ff3115;
 }
 
 .about .container .section-about-title::before {
@@ -13,5 +13,13 @@
   right: 0;
   transform: translateY(-50%);
   margin-right: -50px;
-  border: 1px solid var(--bs-primary) !important;
+  border: 1px solid #ff3115 !important;
+}
+
+.btn-btn-next-brev {
+  background-color: #ff3115;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  padding: 10px 20px;
 }

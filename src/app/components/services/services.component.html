@@ -33,8 +33,12 @@
 
             <div class="col-lg-6 p-2">
               <div
-                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 box"
-                style="height: 200px; overflow: hidden"
+                class="service-content-inner d-flex align-items-center bg-white border rounded p-4 pe-0 box"
+                style="
+                  height: 200px;
+                  overflow: hidden;
+                  border: 1px solid #ff3115 !important;
+                "
               >
                 <div class="service-icon p-4">
                   <i class="{{ obj?.icon }}"></i>
@@ -57,7 +61,7 @@
             <div class="col-12">
               <div class="text-center">
                 <a
-                  class="btn btn-primary rounded-pill py-3 px-5 mt-2"
+                  class="btn btn-btn-next-brev rounded-pill py-3 px-5 mt-2"
                   href=""
                   >{{ "brands.button" | translate }}</a
                 >
@@ -84,7 +88,11 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
-              style="height: 200px; overflow: hidden"
+              style="
+                height: 200px;
+                overflow: hidden;
+                border: 1px solid #ff3115 !important;
+              "
             >
               <div
                 class="service-content text-start p-2"
@@ -96,14 +104,18 @@
                 </p>
               </div>
               <div class="service-icon p-4">
-                <i class="fa fa-hands-helping fa-4x text-primary"></i>
+                <i class="fa fa-hands-helping fa-4x icon-bg icon-bg"></i>
               </div>
             </div>
           </div>
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
-              style="height: 200px; overflow: hidden"
+              style="
+                height: 200px;
+                overflow: hidden;
+                border: 1px solid #ff3115 !important;
+              "
             >
               <div
                 class="service-content text-start p-2"
@@ -115,7 +127,7 @@
                 </p>
               </div>
               <div class="service-icon p-4">
-                <i class="fa fa-bar-chart fa-4x text-primary"></i>
+                <i class="fa fa-bar-chart fa-4x icon-bg"></i>
               </div>
             </div>
           </div>
@@ -126,10 +138,14 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
-              style="height: 200px; overflow: hidden"
+              style="
+                height: 200px;
+                overflow: hidden;
+                border: 1px solid #ff3115 !important;
+              "
             >
               <div class="service-icon p-4">
-                <i class="fa fa-briefcase fa-4x text-primary"></i>
+                <i class="fa fa-briefcase fa-4x icon-bg"></i>
               </div>
               <div class="service-content" [class.text-end]="lang == 'ar'">
                 <h5 class="mb-4">{{ "services.3.title" | translate }}</h5>
@@ -142,10 +158,14 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
-              style="height: 200px; overflow: hidden"
+              style="
+                height: 200px;
+                overflow: hidden;
+                border: 1px solid #ff3115 !important;
+              "
             >
               <div class="service-icon p-4">
-                <i class="fa fa-building fa-4x text-primary"></i>
+                <i class="fa fa-building fa-4x icon-bg"></i>
               </div>
               <div class="service-content" [class.text-end]="lang == 'ar'">
                 <h5 class="mb-4">{{ "services.4.title" | translate }}</h5>
@@ -159,9 +179,11 @@
       </div>
       <div class="col-12">
         <div class="text-center">
-          <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">{{
-            "services.button" | translate
-          }}</a>
+          <a
+            class="btn btn-btn-next-brev rounded-pill py-3 px-5 mt-2"
+            href=""
+            >{{ "services.button" | translate }}</a
+          >
         </div>
       </div>
     </div>

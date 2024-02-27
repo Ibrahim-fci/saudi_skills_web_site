@@ -63,6 +63,14 @@
   background-size: cover;
 }
 
+.btn-btn-next-brev {
+  background-color: #ff3115;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  padding: 10px 20px;
+}
+
 @media (max-width: 768px) {
 
   .carousel-header .carousel-inner .carousel-item img,
@@ -80,8 +88,5 @@
     opacity: 0;
   }
 
-  .search-bar {
-    margin-top: -100px;
-    transition: 0.5s;
-  }
+
 }
