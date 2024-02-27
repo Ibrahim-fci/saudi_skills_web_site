@@ -3,7 +3,9 @@
     <div class="row g-5">
       <div class="col-md-6 col-lg-6 col-xl-3">
         <div class="footer-item d-flex flex-column">
-          <h4 class="mb-4 text-white">Get In Touch</h4>
+          <h4 class="mb-4 text-white">
+            {{ "footer.get-in-touch" | translate }}
+          </h4>
           <a href=""
             ><i class="fas fa-home me-2"></i>Riyadh: Al Uroubah Rd, Olaya</a
           >
@@ -36,34 +38,47 @@
       </div>
       <div class="col-md-6 col-lg-6 col-xl-3">
         <div class="footer-item d-flex flex-column">
-          <h4 class="mb-4 text-white">Company</h4>
-          <a href="#about"><i class="fas fa-angle-right me-2"></i> About</a>
-          <a href="#brands"><i class="fas fa-angle-right me-2"></i> Brands</a>
+          <h4 class="mb-4 text-white">{{ "footer.company" | translate }}</h4>
+          <a href="#about"
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.1" | translate }}</a
+          >
+          <a href="#brands"
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.7" | translate }}</a
+          >
           <a href="#services"
-            ><i class="fas fa-angle-right me-2"></i> Services</a
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.2" | translate }}</a
           >
           <a href="#partnership"
-            ><i class="fas fa-angle-right me-2"></i> Partnership</a
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.3" | translate }}</a
           >
         </div>
       </div>
       <div class="col-md-6 col-lg-6 col-xl-3">
         <div class="footer-item d-flex flex-column">
-          <h4 class="mb-4 text-white">Support</h4>
-          <a href="#footer"><i class="fas fa-angle-right me-2"></i> Contact</a>
+          <h4 class="mb-4 text-white">{{ "footer.support" | translate }}</h4>
+          <a href="#footer"
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.6" | translate }}</a
+          >
 
           <a href="#achievements"
-            ><i class="fas fa-angle-right me-2"></i> Achievements</a
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.4" | translate }}</a
           >
           <a href="#leaderships"
-            ><i class="fas fa-angle-right me-2"></i> Leadership Team</a
+            ><i class="fas fa-angle-right me-2"></i>
+            {{ "footer.links.5" | translate }}</a
           >
         </div>
       </div>
       <div class="col-md-6 col-lg-6 col-xl-3">
         <div class="footer-item">
           <div class="row gy-3 gx-2 mb-4">
-            <h4 class="text-white mb-3">Payments</h4>
+            <h4 class="text-white mb-3">{{ "footer.payment" | translate }}</h4>
             <div class="footer-bank-card">
               <a href="#" class="text-white me-2"
                 ><i class="fab fa-cc-visa fa-2x"></i
@@ -87,9 +102,12 @@
   <!-- Copyright Start -->
   <div class="container-fluid copyright text-body py-4 m-auto text-center">
     <p class="mb-0 text-white">
-      Copyright Reserved &copy; 2024 To
-      <a href="#" class="text-white" href="#" style="color: #f8f9fa"
-        >Saudi Skills Institute</a
+      <a
+        href="#"
+        class="text-white"
+        href="#"
+        style="color: #f8f9fa; text-decoration: none"
+        >{{ "footer.title" | translate }}</a
       >
     </p>
   </div>

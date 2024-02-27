@@ -1,32 +1,33 @@
-<div class="doctor-message" id="achievements">
+<div
+  class="doctor-message"
+  id="achievements"
+  [attr.dir]="lang == 'en' ? 'ltr' : 'rtl'"
+>
   <div class="inner-lay">
     <div class="container">
       <div class="row session-title">
-        <h2>Our Achievemtns in numbers</h2>
+        <h2>{{ "achivments.title" | translate }}</h2>
         <p>
-          Saudi Skills has been recognized as a leading education and training
-          provider by various industry associations and organizations. The
-          company has received awards for its commitment to quality, innovation,
-          and customer service.
+          {{ "achivments.subtitle" | translate }}
         </p>
       </div>
       <div class="row">
         <div class="col-sm-3 numb">
           <h3>23367</h3>
-          <span>GRADUATES</span>
+          <span>{{ "achivments.graduates" | translate }}</span>
         </div>
         <div class="col-sm-3 numb">
           <h3>22+</h3>
-          <span>COURSES</span>
+          <span>{{ "achivments.courses" | translate }}</span>
         </div>
         <div class="col-sm-3 numb">
           <h3>17+</h3>
-          <span>TEACHERS</span>
+          <span>{{ "achivments.teachers" | translate }}</span>
         </div>
 
         <div class="col-sm-3 numb">
           <h3>2020982</h3>
-          <span>WEBSITE VISITS</span>
+          <span>{{ "achivments.website-visits" | translate }}</span>
         </div>
       </div>
     </div>

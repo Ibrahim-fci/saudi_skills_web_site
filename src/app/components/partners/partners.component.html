@@ -1,15 +1,10 @@
 <div class="container-fluid ExploreTour py-5" id="partnership">
   <div class="container py-5">
     <div class="mx-auto text-center mb-5" style="max-width: 900px">
-      <h5 class="section-title px-3">Partnership | Clients</h5>
-      <h1 class="mb-4">Our Partnership | Our Clients</h1>
+      <h5 class="section-title px-3">{{ "partership.title" | translate }}</h5>
+      <h1 class="mb-4">{{ "partership.subtitle" | translate }}</h1>
       <p class="mb-0">
-        At Saudi Skills Co Ltd, we believe in the power of partnerships. We have
-        established collaborations with top educational institutions and
-        organizations to enhance our training programs and expand our reach.
-        These partnerships provide us with opportunities for collaboration and
-        co-branding, which help us strengthen our market position and create new
-        revenue streams.
+        {{ "partership.desc" | translate }}
       </p>
     </div>
     <div class="tab-class text-center">
@@ -20,9 +15,9 @@
             data-bs-toggle="pill"
             href="#"
           >
-            <span class="text-dark" style="width: 250px"
-              >Particpate Wit Us</span
-            >
+            <span class="text-dark" style="width: 250px">{{
+              "partership.button" | translate
+            }}</span>
           </a>
         </li>
       </ul>

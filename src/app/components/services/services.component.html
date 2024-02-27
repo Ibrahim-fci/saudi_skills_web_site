@@ -1,9 +1,9 @@
 <div class="container-fluid destination py-5" id="brands">
   <div class="container py-5">
     <div class="mx-auto text-center mb-5" style="max-width: 900px">
-      <h5 class="section-title px-3">Brands</h5>
+      <h5 class="section-title px-3">{{ "brands.title" | translate }}</h5>
 
-      <h1 class="mb-0">Our Brands</h1>
+      <h1 class="mb-0">{{ "brands.subtitle" | translate }}</h1>
     </div>
     <div class="tab-class text-center">
       <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
@@ -34,14 +34,20 @@
             <div class="col-lg-6 p-2">
               <div
                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 box"
+                style="height: 200px; overflow: hidden"
               >
                 <div class="service-icon p-4">
                   <i class="{{ obj?.icon }}"></i>
                 </div>
-                <div class="service-content text-start">
-                  <h5 class="mb-4">{{ obj?.title }}</h5>
+                <div
+                  class="service-content p-3 text-start"
+                  [class.text-end]="lang == 'ar'"
+                >
+                  <h5 class="mb-4">
+                    {{ lang == "ar" ? obj?.titleAr : obj?.title }}
+                  </h5>
                   <p class="mb-0">
-                    {{ obj?.desc }}
+                    {{ lang == "ar" ? obj?.descAr : obj?.desc }}
                   </p>
                 </div>
               </div>
@@ -50,8 +56,10 @@
             }
             <div class="col-12">
               <div class="text-center">
-                <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href=""
-                  >Get More</a
+                <a
+                  class="btn btn-primary rounded-pill py-3 px-5 mt-2"
+                  href=""
+                  >{{ "brands.button" | translate }}</a
                 >
               </div>
             </div>
@@ -67,8 +75,8 @@
 <div class="container-fluid bg-light service py-5" id="services">
   <div class="container py-5">
     <div class="mx-auto text-center mb-5" style="max-width: 900px">
-      <h5 class="section-title px-3">Searvices</h5>
-      <h1 class="mb-0">Our Services</h1>
+      <h5 class="section-title px-3">{{ "services.title" | translate }}</h5>
+      <h1 class="mb-0">{{ "services.subtitle" | translate }}</h1>
     </div>
     <div class="row g-4">
       <div class="col-lg-6">
@@ -76,14 +84,15 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
+              style="height: 200px; overflow: hidden"
             >
-              <div class="service-content text-start p-2">
-                <h5 class="mb-4">Strategy Development</h5>
+              <div
+                class="service-content text-start p-2"
+                [class.text-end]="lang == 'ar'"
+              >
+                <h5 class="mb-4">{{ "services.1.title" | translate }}</h5>
                 <p class="mb-0">
-                  Helping public and private sector entities in understanding
-                  their mandates and businesses, and analyzing their
-                  environment, to identify and evaluate strategic options to
-                  achieve their objectives.
+                  {{ "services.1.desc" | translate }}
                 </p>
               </div>
               <div class="service-icon p-4">
@@ -94,13 +103,15 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0"
+              style="height: 200px; overflow: hidden"
             >
-              <div class="service-content text-start p-2">
-                <h5 class="mb-4">Market Research & Economic Studies</h5>
+              <div
+                class="service-content text-start p-2"
+                [class.text-end]="lang == 'ar'"
+              >
+                <h5 class="mb-4">{{ "services.2.title" | translate }}</h5>
                 <p class="mb-0">
-                  Collecting data and analyzing markets and industries, either
-                  quantitative or qualitative, depending on the requirements of
-                  the client.
+                  {{ "services.2.desc" | translate }}
                 </p>
               </div>
               <div class="service-icon p-4">
@@ -115,17 +126,15 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+              style="height: 200px; overflow: hidden"
             >
               <div class="service-icon p-4">
                 <i class="fa fa-briefcase fa-4x text-primary"></i>
               </div>
-              <div class="service-content">
-                <h5 class="mb-4">Strategy Implementation</h5>
+              <div class="service-content" [class.text-end]="lang == 'ar'">
+                <h5 class="mb-4">{{ "services.3.title" | translate }}</h5>
                 <p class="mb-0">
-                  Streamlining the general strategic direction and objectives of
-                  an entity into more operational and tactical activities, and
-                  supporting clients in executing their strategy while
-                  considering the nature of the industry.
+                  {{ "services.3.desc" | translate }}
                 </p>
               </div>
             </div>
@@ -133,17 +142,15 @@
           <div class="col-12">
             <div
               class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0"
+              style="height: 200px; overflow: hidden"
             >
               <div class="service-icon p-4">
                 <i class="fa fa-building fa-4x text-primary"></i>
               </div>
-              <div class="service-content">
-                <h5 class="mb-4">Partnerships And Mergers</h5>
+              <div class="service-content" [class.text-end]="lang == 'ar'">
+                <h5 class="mb-4">{{ "services.4.title" | translate }}</h5>
                 <p class="mb-0">
-                  Supporting organizations currently seeking to enter a
-                  partnership or merge with another institution by helping
-                  clients assess the potential, design the structure, and ensure
-                  the long-term success of the new venture.
+                  {{ "services.4.desc" | translate }}
                 </p>
               </div>
             </div>
@@ -152,9 +159,9 @@
       </div>
       <div class="col-12">
         <div class="text-center">
-          <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href=""
-            >Service More</a
-          >
+          <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">{{
+            "services.button" | translate
+          }}</a>
         </div>
       </div>
     </div>
