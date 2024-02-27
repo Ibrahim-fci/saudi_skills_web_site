@@ -50,5 +50,68 @@
     "sub5": "Upcoming Branches",
     "sub6": "24/7 Service",
     "button": "More"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "We provide the following services",
+    "button": "More Services",
+    "1": {
+      "title": "Strategy Development",
+      "desc": "Helping public and private sector entities in understanding their mandates and businesses, and analyzing their environment, to identify and evaluate strategic options to achieve their objectives."
+    },
+    "2": {
+      "title": "Market Research & Economic Studies",
+      "desc": "Collecting data and analyzing markets and industries, either quantitative or qualitative, depending on the requirements of the client."
+    },
+    "3": {
+      "title": "Strategy Implementation",
+      "desc": "Streamlining the general strategic direction and objectives of an entity into more operational and tactical activities, and supporting clients in executing their strategy while considering the nature of the industry."
+    },
+    "4": {
+      "title": "Partnerships And Mergers",
+      "desc": "Supporting organizations currently seeking to enter a partnership or merge with another institution by helping clients assess the potential, design the structure, and ensure the long-term success of the new venture."
+    }
+  },
+  "brands": {
+    "title": "Brands",
+    "subtitle": "Our Brands",
+    "button": "Get More"
+  },
+  "partership": {
+    "title": "PARTNERSHIP | CLIENTS",
+    "subtitle": "Our Partnership | Our Clients",
+    "desc": "At Saudi Skills Co Ltd, we believe in the power of partnerships. We have established collaborations with top educational institutions and organizations to enhance our training programs and expand our reach. These partnerships provide us with opportunities for collaboration and co-branding, which help us strengthen our market position and create new revenue streams.",
+    "button": "Participate With Us"
+  },
+  "achivments": {
+    "title": "Our Achievemtns in numbers",
+    "subtitle": "Saudi Skills has been recognized as a leading education and training provider by numerous industry associations and organizations. The company has won awards for its commitment to quality, innovation and customer service  Saudi Skills remains committed to its mission of empowering individuals and institutions to improve Realize their potential The company is planning to develop its full potential through high-quality educational and training programs. Before her testimonies   It demonstrates its dedication to this mission and its commitment to the goals of the Kingdom of Saudi Arabia’s vision Year 2030",
+
+    "graduates": "Graduates",
+    "courses": "Courses",
+    "teachers": "Teachers",
+    "website-visits": "Website Visits"
+  },
+  "leaderships": {
+    "title": "leadership",
+    "subtitle": "Meet Our Leadership Team"
+  },
+  "footer": {
+    "title": "© 2024 Saudi Skills Institute. All Rights Reserved.",
+    "copyright": "Copyright",
+    "get-in-touch": "Get In Touch",
+    "company": "Company",
+    "support": "Support",
+    "payment": "Payment",
+
+    "links": {
+      "1": "About Us",
+      "2": "Services",
+      "3": "Partnership",
+      "4": "Achievements",
+      "5": "Leadership",
+      "6": "Contact Us",
+      "7": "Brands"
+    }
   }
 }
