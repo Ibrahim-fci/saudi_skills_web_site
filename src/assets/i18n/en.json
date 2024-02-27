@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "brands": "brands",
+    "contact": "Contact",
+    "partnership": "Partnership",
+    "pages": "Pages",
+    "achievements": "Achievements",
+    "leadership-team": "Leadership Team",
+    "title": "Saudi Skills",
+    "view-courses": "View Courses",
+    "login": "Login",
+    "register": "Register",
+    "lang": "language"
+  },
+  "carousel": {
+    "1": {
+      "title": "Higher Saudi Skills Institute Academy!",
+      "subtitle": "CREATION AND INNOVATION",
+      "desc": "leading education and training provider in Saudi Arabia. We seek to empower individuals and organizations achieve their goals.",
+      "button": "Dicover Our Diplomas"
+    },
+    "2": {
+      "title": "Our MISSION",
+      "subtitle": "TO ACHIEVE OUR MESSAGE, WE BELIEVE IN",
+      "desc": "Equip nascent and established professionals, private companies, as well as public institutions with the requisite skills to achieve their full potential through innovative educational programs.",
+      "button": "Dicover Our Diplomas"
+    },
+    "3": {
+      "title": "Institute VISION!",
+      "subtitle": "TEACHING & LEARNING",
+      "desc": "Creating a new generation of Saudi women and men capable of realising the nation’s Vision 2030 in education to meet the demands of a 21st century knowledge-based labour market.",
+      "button": "Dicover Our Diplomas"
+    }
+  },
+  "about": {
+    "welcome": "Welcome To",
+    "title": "ABOUT US",
+    "subtitle": "Welcome to Saudi Skills Institute Academy!",
+    "pargraphs": {
+      "1": "Saudi Skills Co Ltd. is a leading education and training provider in Saudi Arabia. We seek to empower individuals and organizations achieve their goals by providing high-quality education and training programs that meet the needs of the market. Our core values are excellence, innovation, and integrity. We operate several institutes, each of which offers a unique set of diplomas, courses and training programs.",
+      "2": "Our ﬂagship institute is the Higher Saudi Skills Institute in Riyadh and Jeddah, which was established in 1994 and offers diplomas in interior design, graphic design and other design-related ﬁelds. We also offer education consultancy services under the brand name of 'The Skills Education Consultancy' which, provides support to international and national education entities in entering the market, and design training material when needed."
+    },
+    "sub1": "Our Branches",
+    "sub2": "Featured Diplomas",
+    "sub3": "Recent Successful Projects",
+    "sub4": "Our Courses",
+    "sub5": "Upcoming Branches",
+    "sub6": "24/7 Service",
+    "button": "More"
+  }
+}

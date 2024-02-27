@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
   <a href="" class="navbar-brand p-0">
-    <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>SAUDI SKILLS</h1>
-    <!-- <img src="../../../assets/img/logo.png" alt="Logo"> -->
+    <h1 class="m-0">
+      <i class="fa fa-map-marker-alt me-3"></i>{{ "nav.title" | translate }}
+    </h1>
   </a>
   <button
     class="navbar-toggler"
@@ -12,25 +13,47 @@
     <span class="fa fa-bars"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
-    <div class="navbar-nav ms-auto py-0">
-      <a href="index.html" class="nav-item nav-link active">Home</a>
-      <a href="#about" class="nav-item nav-link">About</a>
-      <a href="#brands" class="nav-item nav-link">Brands</a>
-      <a href="#services" class="nav-item nav-link">Services</a>
-      <a href="#partnership" class="nav-item nav-link">Partnership</a>
+    <div
+      class="navbar-nav ms-auto py-0"
+      [attr.dir]="lang == 'en' ? 'ltr' : 'rtl'"
+    >
+      <a href="index.html" class="nav-item nav-link active">{{
+        "nav.home" | translate
+      }}</a>
+      <a href="#about" class="nav-item nav-link">{{
+        "nav.about" | translate
+      }}</a>
+      <a href="#brands" class="nav-item nav-link">{{
+        "nav.brands" | translate
+      }}</a>
+      <a href="#services" class="nav-item nav-link">{{
+        "nav.services" | translate
+      }}</a>
+      <a href="#partnership" class="nav-item nav-link">{{
+        "nav.partnership" | translate
+      }}</a>
       <div class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-          >Pages</a
+        <a
+          href="#"
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          >{{ "nav.pages" | translate }}</a
         >
         <div class="dropdown-menu m-0">
-          <a href="#achievements" class="dropdown-item">Achievemtns</a>
-          <a href="#leaderships" class="dropdown-item">Leadership Team</a>
+          <a href="#achievements" class="dropdown-item">{{
+            "nav.achievements" | translate
+          }}</a>
+          <a href="#leaderships" class="dropdown-item">{{
+            "nav.leadership-team" | translate
+          }}</a>
         </div>
       </div>
-      <a href="#footer" class="nav-item nav-link">Contact</a>
+      <a href="#footer" class="nav-item nav-link">{{
+        "nav.contact" | translate
+      }}</a>
     </div>
-    <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4"
-      >Book Now</a
-    >
+    <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">{{
+      "nav.view-courses" | translate
+    }}</a>
   </div>
 </nav>
