@@ -17,7 +17,7 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <div
       class="navbar-nav ms-auto py-0"
-      [attr.dir]="lang == 'en' ? 'ltr' : 'rtl'"
+      [attr.dir]="lang2 == 'en' ? 'ltr' : 'rtl'"
     >
       <a href="index.html" class="nav-item nav-link active">{{
         "nav.home" | translate
@@ -50,6 +50,31 @@
           }}</a>
         </div>
       </div>
+
+      <div class="nav-item dropdown">
+        <a
+          href="#"
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          >{{ "nav.lang" | translate }}</a
+        >
+        <div class="dropdown-menu m-0 text-center">
+          <a href="#" class="dropdown-item" (click)="changeLang('en')">
+            <img
+              src="../../../assets/img/united-states.png"
+              alt="en"
+              style="max-width: 70px; max-height: 50px"
+          /></a>
+          <a href="#" class="dropdown-item" (click)="changeLang('ar')">
+            <img
+              src="../../../assets/img/saudi-arabia.png"
+              alt="en"
+              style="max-width: 70px; max-height: 50px"
+            />
+          </a>
+        </div>
+      </div>
+
       <a href="#footer" class="nav-item nav-link">{{
         "nav.contact" | translate
       }}</a>

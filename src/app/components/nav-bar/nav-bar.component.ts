@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../Services/language.service';
 
 @Component({
@@ -10,19 +10,30 @@ import { LanguageService } from '../../Services/language.service';
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
-  lang: string = '';
+  lang2: string = '';
   currentLang = this.langauageService.langData$;
+  lang = this.langauageService.langData$;
 
 
-  constructor(private langauageService: LanguageService) {
-
-
-  }
 
   ngOnInit(): void {
     this.currentLang.subscribe((data: any) => {
-      this.lang = data;
+      this.lang2 = data;
     })
+  }
+
+
+  constructor(private translateService: TranslateService, private langauageService: LanguageService) {
+    this.translateService.use(localStorage.getItem('lang') || 'en');
+  }
+
+  changeLang(lang: string) {
+    localStorage.setItem('lang', lang);
+    this.translateService.use(lang);
+    this.langauageService.setLangData(lang);
+
+
+
   }
 
 }
