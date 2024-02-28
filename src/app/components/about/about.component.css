@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  color: #ff3115;
+  color: #225c55;
 }
 
 .about .container .section-about-title::before {
@@ -13,11 +13,11 @@
   right: 0;
   transform: translateY(-50%);
   margin-right: -50px;
-  border: 1px solid #ff3115 !important;
+  border: 1px solid #225c55 !important;
 }
 
 .btn-btn-next-brev {
-  background-color: #ff3115;
+  background-color: #225c55;
   color: #fff;
   border-radius: 0;
   border: 0;

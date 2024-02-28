@@ -3,7 +3,7 @@
 }
 
 .ExploreTour .tab-class .nav-item a.active {
-  background: #ff3115 !important;
+  background: #225c55 !important;
 }
 
 .ExploreTour .tab-class .nav-item a.active span {
@@ -67,7 +67,7 @@
   border-top-left-radius: 20px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 80px;
-  background: #ff3115;
+  background: #225c55;
   color: var(--bs-white);
 }
 
@@ -95,7 +95,7 @@
   border-top-left-radius: 20px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 80px;
-  background: #ff3115;
+  background: #225c55;
   color: var(--bs-white);
 }
 
@@ -155,21 +155,21 @@
   width: 15px;
   height: 15px;
   background: var(--bs-light);
-  border: 1px solid #ff3115;
+  border: 1px solid #225c55;
   border-radius: 10px;
   transition: 0.5s;
 }
 
 .ExploreTour #InternationalTab-2 .InternationalTour-carousel .owl-dot.active {
   width: 40px;
-  background: #ff3115;
+  background: #225c55;
 }
 
 .section-title {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  color: #ff3115;
+  color: #225c55;
 }
 
 .section-title::before {
@@ -180,7 +180,7 @@
   right: 0;
   transform: translateY(-50%);
   margin-right: -50px;
-  border: 1px solid #ff3115 !important;
+  border: 1px solid #225c55 !important;
 }
 
 .section-title::after {
@@ -191,11 +191,11 @@
   left: 0;
   transform: translateY(-50%);
   margin-left: -50px;
-  border: 1px solid #ff3115 !important;
+  border: 1px solid #225c55 !important;
 }
 
 .btn-btn-next-brev {
-  background-color: #ff3115;
+  background-color: #225c55;
   color: #fff;
   border-radius: 0;
   border: 0;

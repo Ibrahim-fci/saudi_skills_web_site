@@ -38,7 +38,7 @@
 }
 
 .destination .tab-class .nav-item a.active {
-  background: #ff3115 !important;
+  background: #225c55 !important;
 }
 
 .destination .tab-class .nav-item a.active span {
@@ -70,7 +70,7 @@
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  color: #ff3115;
+  color: #225c55;
 }
 
 .section-title::before {
@@ -81,7 +81,7 @@
   right: 0;
   transform: translateY(-50%);
   margin-right: -50px;
-  border: 1px solid #ff3115 !important;
+  border: 1px solid #225c55 !important;
 }
 
 .section-title::after {
@@ -92,11 +92,11 @@
   left: 0;
   transform: translateY(-50%);
   margin-left: -50px;
-  border: 1px solid #ff3115 !important;
+  border: 1px solid #225c55 !important;
 }
 
 .institute-title {
-  color: #ff3115;
+  color: #225c55;
   text-transform: capitalize;
   font-weight: 600;
   font-size: 1.5rem;
@@ -115,7 +115,7 @@
 
 .box:hover {
   position: relative;
-  background: #ff3115 !important;
+  background: #225c55 !important;
 }
 
 
@@ -135,7 +135,7 @@
 
 .service .service-content-inner:hover {
   position: relative;
-  background: #ff3115 !important;
+  background: #225c55 !important;
 }
 
 .service .service-content-inner .service-content h5,
@@ -153,7 +153,7 @@
 /*** Service End ***/
 
 .btn-btn-next-brev {
-  background-color: #ff3115;
+  background-color: #225c55;
   color: #fff;
   border-radius: 0;
   border: 0;
@@ -161,7 +161,7 @@
 }
 
 .icon-bg {
-  color: #ff3115;
+  color: #225c55;
   border-radius: 0;
   border: 0;
   padding: 10px 20px;
