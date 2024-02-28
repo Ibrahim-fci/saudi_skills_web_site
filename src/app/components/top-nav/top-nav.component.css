@@ -3,13 +3,17 @@
 }
 
 .top-bar {
-  background: #ff3115 !important;
+  background: #212121 !important;
 
+}
+
+a {
+  text-decoration: none;
 }
 
 .topbar {
   padding: 2px 10px 2px 20px;
-  background: #ff3115 !important;
+  background: #212121 !important;
 }
 
 .topbar a,

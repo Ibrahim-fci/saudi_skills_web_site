@@ -23,3 +23,8 @@
   border: 0;
   padding: 10px 20px;
 }
+
+.rotate {
+  transform: rotate(180deg);
+  /* Rotate the arrow icon 180 degrees */
+}

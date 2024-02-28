@@ -10,7 +10,8 @@
         @for (item of taps; track $index) {
         <li class="nav-item" (click)="changegeActive($index + 1)">
           <a
-            class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill"
+            class="d-flex mx-3 py-2 border bg-light rounded-pill"
+            style="border: 1px solid #ff3115 !important"
             [ngClass]="{ active: $index + 1 == 1 && activeFlag }"
             data-bs-toggle="pill"
             href="#tab-{{ $index + 1 }}"

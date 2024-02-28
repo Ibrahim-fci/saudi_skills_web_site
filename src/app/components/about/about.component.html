@@ -35,7 +35,7 @@
         </h5>
         <h1 class="mb-4">
           {{ "about.welcome" | translate }}
-          <span style="color: #6ea90d">{{ "about.subtitle" | translate }}</span>
+          <span style="">{{ "about.subtitle" | translate }}</span>
         </h1>
         <p class="mb-4">
           {{ "about.pargraphs.1" | translate }}
@@ -46,44 +46,63 @@
         <div class="row gy-2 gx-4 mb-4">
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2"></i>
+              <i
+                class="fa fa-arrow-right text-primary me-2"
+                [class.rotate]="lang == 'ar'"
+              ></i>
               {{ "about.sub1" | translate }}
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2"></i>
+              <i
+                class="fa fa-arrow-right text-primary me-2"
+                [class.rotate]="lang == 'ar'"
+              ></i>
               {{ "about.sub2" | translate }}
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2"></i>
+              <i
+                class="fa fa-arrow-right text-primary me-2"
+                [class.rotate]="lang == 'ar'"
+              ></i>
               {{ "about.sub3" | translate }}
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2"></i>
+              <i
+                class="fa fa-arrow-right text-primary me-2"
+                [class.rotate]="lang == 'ar'"
+              ></i>
               {{ "about.sub4" | translate }}
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2"></i>
+              <i
+                class="fa fa-arrow-right text-primary me-2"
+                [class.rotate]="lang == 'ar'"
+              ></i>
               {{ "about.sub5" | translate }}
             </p>
           </div>
           <div class="col-sm-6">
             <p class="mb-0">
-              <i class="fa fa-arrow-right text-primary me-2"></i>
+              <i
+                class="fa fa-arrow-right text-primary me-2"
+                [class.rotate]="lang == 'ar'"
+              ></i>
               {{ "about.sub6" | translate }}
             </p>
           </div>
         </div>
-        <a class="btn btn-btn-next-brev rounded-pill py-3 px-5 mt-2" href="">{{
-          "about.button" | translate
-        }}</a>
+
+        <a class="btn btn-btn-next-brev rounded-pill py-3 px-5 mt-2" href=""
+          >{{ "about.button" | translate }}
+        </a>
       </div>
     </div>
   </div>
